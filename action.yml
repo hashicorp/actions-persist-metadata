@@ -11,7 +11,7 @@ runs:
       run: echo "${{ toJSON(github.event.client_payload.payload) }}" > metadata.json
 
     - name: Upload metadata.json
-      uses: actions/upload-metadata
+      uses: actions/upload-artifact@v3
       with:
         name: metadata.json
         path: metadata.json
