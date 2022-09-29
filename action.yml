@@ -8,7 +8,6 @@ runs:
   steps:
     - name: Write metadata.json
       shell: bash
-      # if: repository_dispatch
       run: echo "${{ toJSON(github.event.client_payload.payload) }}" > metadata.json
 
     - name: Upload metadata.json
