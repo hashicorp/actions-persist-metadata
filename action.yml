@@ -8,7 +8,7 @@ runs:
   steps:
     - name: Write metadata.json
       shell: bash
-      run: echo "${{ toJSON(github.event.client_payload.payload) }}" > metadata.json
+      run: echo "${{ github.event.client_payload.payload }}" | tee -a metadata.json
 
     - name: Upload metadata.json
       uses: actions/upload-artifact@v3
