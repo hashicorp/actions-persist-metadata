@@ -1,0 +1,10 @@
+on: 
+  - push
+
+jobs: 
+  persist_metadata:
+    runs-on: ubuntu-latest
+    name: Test the persisting of metadata
+    steps:
+      - name: test
+        uses: ./
