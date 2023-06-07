@@ -1,4 +1,5 @@
 # Persist Metadata Action
+[![Heimdall](https://heimdall.hashicorp.services/api/v1/assets/actions-persist-metadata/badge.svg?key=822b0e2cf3c960db813d2c5a2d6dbfde76d040feb756cc7cb98e049c449a32f5)](https://heimdall.hashicorp.services/site/assets/actions-persist-metadata) [![CI](https://github.com/hashicorp/actions-persist-metadata/actions/workflows/lint.yml/badge.svg)](https://github.com/hashicorp/actions-persist-metadata/actions/workflows/lint.yml)
 
 Persists metadata provided by Common Release Tooling
 
