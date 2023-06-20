@@ -1,0 +1,11 @@
+runbooks: []
+  # - name: runbook name
+  #   link: link to runbook
+
+other_links:
+  - name: readme
+    link: https://github.com/hashicorp/actions-persist-metadata/blob/main/README.md
+  - name: CRT Overview
+    link: https://hashicorp.atlassian.net/wiki/spaces/RELENG/pages/2300674069/CRT+Overview
+  - name: CRT Core - Metadata RFC
+    link: hhttps://go.hashi.co/rfc/engsrv-074

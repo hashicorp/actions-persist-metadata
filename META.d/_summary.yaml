@@ -1,0 +1,11 @@
+schema: 1.1
+
+partition: internal-platform
+category: github-action
+
+summary:
+  name: actions-persist-metadata
+  owner: team-rel-eng
+  description: Persists metadata provided by Common Release Tooling (CRT).
+  visibility: external
+  auth_methods: none
