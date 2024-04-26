@@ -1,6 +1,6 @@
 schema: 1.1
 
-partition: internal-platform
+partition: release-engineering
 category: github-action
 
 summary:
