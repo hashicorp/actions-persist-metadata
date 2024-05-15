@@ -5,7 +5,7 @@ category: github-action
 
 summary:
   name: actions-persist-metadata
-  owner: team-rel-eng
+  owner: team-selfmanaged-releng
   description: Persists metadata provided by Common Release Tooling (CRT).
   visibility: external
   auth_methods: none
